@@ -1,3 +1,11 @@
+# @name server
+# node index.js
+
+@cd client
 scss --watch scss/main.scss:assets/main.css
+
+@cd client
 watchify -d -t [ babelify --presets [ react es2015 ] ] -t brfs -o assets/bundle.js lib/main.js
-static . -p 8080
+
+@cd client
+static . -p 8000
