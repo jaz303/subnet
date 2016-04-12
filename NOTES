@@ -1,0 +1,14 @@
+rooms, exits
+autoexec - local storage
+agents? (multiple) (same ident, different rooms)
+room triggers
+panels (on client)
+chat messages
+auth
+hooks
+
+plan
+----
+auth flow
+rooms -> inc code handlers
+agents
